@@ -61,7 +61,23 @@ layout: default
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
-
+<div>
+  <script src="https://giscus.app/client.js"
+        data-repo="0ldcamel/academic"
+        data-repo-id="R_kgDOOI8vrg"
+        data-category="General"
+        data-category-id="DIC_kwDOOI8vrs4CoDyf"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+</div>
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
@@ -93,20 +109,4 @@ layout: default
     </div>
   {% endif %}
 </div>
-<div>
-  <script src="https://giscus.app/client.js"
-        data-repo="0ldcamel/academic"
-        data-repo-id="R_kgDOOI8vrg"
-        data-category="General"
-        data-category-id="DIC_kwDOOI8vrs4CoDyf"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script>
-</div>
+
